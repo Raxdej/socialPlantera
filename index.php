@@ -11,7 +11,23 @@
 </head>
 
 <body>
-
+    <ul class="Navbar">
+        <li style="--clr:#00ade1"> 
+            <a href="index.html" data-text="&nbsp;Inicio"> &nbsp;Inicio&nbsp;</a>
+        </li>
+        <li style="--clr:#ff6493"> 
+            <a href="perfil.html" data-text="&nbsp;Perfil"> &nbsp;Perfil&nbsp;</a>
+        </li>
+        <li style="--clr:#ffdd1c"> 
+            <a href="servicios.html" data-text="&nbsp;Servicios"> &nbsp;Servicios&nbsp;</a>
+        </li>
+        <li style="--clr:#00dc82"> 
+            <a href="sesion.php" data-text="&nbsp;Sesion"> &nbsp;Sesion&nbsp;</a>
+        </li>
+        <li style="--clr:#dc00d4"> 
+            <a href="contacto.html" data-text="&nbsp;Contacto"> &nbsp;Contacto&nbsp;</a>
+        </li>
+    </ul>
     <div class="conteudo">
         <div class="lista__cards">
             <button class="lista__cards__btn btn btn-esquerda">
@@ -56,14 +72,14 @@
                 <div class="info informacoes__corrente">
                     <h1 class="texto nome">SOL/EXTERIOR</h1>
                     <h4 class="texto localizacao">Descrubre que plantas <br> son para sol</h4>
-                    <a href="sesion.php"><p class="texto descricao">Ver</p></a>
+                    <a href="sol.html"><p class="texto descricao">Ver</p></a>
                 </div>
 
                 <div class="info informacoes__seguinte">
                     <h1 class="texto nome">SOMBRA</h1>
                     <h4 class="texto localizacao">Mira las plantas<br>para sombra</h4>
                     <a href="sombra.html"><p class="texto descricao">Ver</p></a>
-                </div>  
+                </div>
 
                 <div class="info informacoes__anterior">
                     <h1 class="texto nome">INTERIOR</h1>
